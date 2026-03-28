@@ -66,6 +66,16 @@ The pipeline consists of the following steps:
 
 ---
 
+## ⭐ Key Features
+
+- End-to-end data pipeline (Data Lake → Spark → DWH)
+- Distributed data processing with Spark
+- Orchestration with Airflow (Kubernetes-based execution)
+- External tables in Greenplum over S3
+- Analytical data marts for business use cases
+
+---
+
 ## 📊 Calculated Metrics
 
 - `potential_revenue` — potential revenue from available stock  
