@@ -1,7 +1,9 @@
 # Marketplace Data Platform
 
+This project simulates a production-grade data platform for marketplace analytics.
 End-to-end data pipeline for marketplace analytics, implementing a modern data platform architecture:
 S3 (Data Lake) → Spark → Airflow → Greenplum (DWH)
+
 
 ---
 
@@ -32,8 +34,8 @@ The goal of the project is to build an analytical data pipeline and create data 
 ## ⚙️ Tech Stack
 
 - Python
-- Apache Spark (PySpark)
-- Apache Airflow
+- Apache Spark (PySpark, DataFrame API)
+- Apache Airflow (Kubernetes operators)
 - S3 (Data Lake)
 - Greenplum (DWH)
 - SQL
@@ -61,7 +63,7 @@ Sample data is available in the repository (data_examples/).
 
 ## 🧾 Data Schema
 
-Main fields:
+Source Fields:
 
 - sku_id (bigint)
 - title (string)
