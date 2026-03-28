@@ -41,6 +41,47 @@ The goal of the project is to build an analytical data pipeline and create data 
 
 ---
 
+## 📦 Data
+
+The dataset is stored in parquet format and represents marketplace product data.
+
+### Raw Data (S3 - Data Lake)
+- multiple parquet files (~1M records)
+- contains product attributes, pricing, stock and sales data
+
+### Processed Data (Data Mart layer)
+- enriched dataset with calculated metrics
+- stored in parquet format
+
+Sample data is available in the repository (data_examples/).
+
+---
+
+## 🧾 Data Schema
+
+Main fields:
+
+- sku_id (bigint)
+- title (string)
+- category (string)
+- brand (string)
+- seller (string)
+- availability_items_count (bigint)
+- ordered_items_count (bigint)
+- item_price (bigint)
+- item_rate (double)
+- days_on_sell (bigint)
+
+Calculated fields:
+
+- potential_revenue
+- total_revenue
+- avg_daily_sales
+- days_to_sold
+- item_rate_percent
+
+---
+
 ## 🏗️ Architecture
 
 ### Logical Architecture
