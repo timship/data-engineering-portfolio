@@ -103,17 +103,19 @@ Identification of unreliable sellers based on:
 
 ## 🚀 Results
 
-- Processed over 1M records  
-- Built full pipeline: Data Lake → Processing → DWH → Data Mart  
-- Automated data pipeline with Airflow  
-- Prepared analytical datasets for reporting  
+- Processed over 1M records in distributed environment  
+- Built full analytical pipeline: Data Lake → Processing → DWH → Data Mart  
+- Automated data workflows with Airflow  
+- Delivered reporting-ready datasets for analytics   
 
 ---
 
 ## 📂 Project Structure
-.
+
+marketplace-data-platform/
 ├── dags/
 ├── spark_jobs/
+├── configs/
 ├── sql/
 ├── docs/
 └── images/
