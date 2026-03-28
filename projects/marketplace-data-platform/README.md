@@ -1,6 +1,7 @@
 # Marketplace Data Platform
 
-End-to-end data pipeline for marketplace analytics: S3 → Spark → Airflow → Greenplum
+End-to-end data pipeline for marketplace analytics, implementing a modern data platform architecture:
+S3 (Data Lake) → Spark → Airflow → Greenplum (DWH)
 
 ---
 
@@ -40,6 +41,16 @@ The goal of the project is to build an analytical data pipeline and create data 
 - Greenplum (DWH)
 - SQL
 - Kubernetes
+
+---
+
+## ⚡ How It Works
+
+1. Raw data is stored in S3 (Data Lake)  
+2. Spark job processes and enriches data  
+3. Airflow orchestrates execution and dependencies  
+4. Processed data is exposed via Greenplum external tables  
+5. Analytical views are created for reporting
 
 ---
 
