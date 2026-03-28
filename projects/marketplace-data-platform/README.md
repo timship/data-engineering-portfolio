@@ -108,7 +108,13 @@ Identification of unreliable sellers based on:
 ├── docs/
 └── images/
 
+---
 
+## 📚 Documentation
+
+- [Project Description](docs/project_description.md)
+- [Architecture](docs/architecture.md)
+- [DAG Description](docs/dag_description.md)
 ---
 
 ## 📌 Notes
