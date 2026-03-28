@@ -180,6 +180,7 @@ Identification of unreliable sellers based on:
 
 ## 📂 Project Structure
 
+```text
 marketplace-data-platform/
 ├── dags/
 ├── spark_jobs/
