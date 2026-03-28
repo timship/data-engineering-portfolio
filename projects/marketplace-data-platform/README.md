@@ -19,16 +19,13 @@ The goal of the project is to build an analytical data pipeline and create data 
 
 ---
 
-## 🏗️ Architecture
+## ⭐ Key Features
 
-### Logical Architecture
-![Logical architecture](images/logical_architecture.png)
-
-### Technical Architecture
-![Technical architecture](images/technical_architecture.png)
-
-### Airflow DAG
-![Airflow DAG](images/airflow_dag.png)
+- End-to-end data pipeline (Data Lake → Spark → DWH)
+- Distributed data processing with Spark
+- Orchestration with Airflow (Kubernetes-based execution)
+- External tables in Greenplum over S3
+- Analytical data marts for business use cases
 
 ---
 
@@ -44,13 +41,16 @@ The goal of the project is to build an analytical data pipeline and create data 
 
 ---
 
-## ⚡ How It Works
+## 🏗️ Architecture
 
-1. Raw data is stored in S3 (Data Lake)  
-2. Spark job processes and enriches data  
-3. Airflow orchestrates execution and dependencies  
-4. Processed data is exposed via Greenplum external tables  
-5. Analytical views are created for reporting
+### Logical Architecture
+![Logical architecture](images/logical_architecture.png)
+
+### Technical Architecture
+![Technical architecture](images/technical_architecture.png)
+
+### Airflow DAG
+![Airflow DAG](images/airflow_dag.png)
 
 ---
 
@@ -77,13 +77,29 @@ The pipeline consists of the following steps:
 
 ---
 
-## ⭐ Key Features
+## ⚡ How It Works
 
-- End-to-end data pipeline (Data Lake → Spark → DWH)
-- Distributed data processing with Spark
-- Orchestration with Airflow (Kubernetes-based execution)
-- External tables in Greenplum over S3
-- Analytical data marts for business use cases
+1. Raw data is stored in S3 (Data Lake)  
+2. Spark job processes and enriches data  
+3. Airflow orchestrates execution and dependencies  
+4. Processed data is exposed via Greenplum external tables  
+5. Analytical views are created for reporting
+
+---
+
+## 🛡️ Reliability
+
+- Airflow retry mechanism is used for fault tolerance  
+- Spark job execution is monitored via sensor  
+- Pipeline is designed to be idempotent
+  
+---
+
+## 📈 Scalability
+
+- Data is processed using distributed Spark jobs  
+- Storage is based on S3 (scalable object storage)  
+- Architecture supports large-scale data processing
 
 ---
 
