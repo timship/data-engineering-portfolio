@@ -171,10 +171,10 @@ Identification of unreliable sellers based on:
 
 ## 🚀 Results
 
-- Processed over 1M records in distributed environment  
-- Built full analytical pipeline: Data Lake → Processing → DWH → Data Mart  
-- Automated data workflows with Airflow  
-- Delivered reporting-ready datasets for analytics   
+- Processed over 1M records in a distributed environment  
+- Built a full analytical pipeline: Data Lake → Processing → DWH → Data Mart  
+- Automated workflow orchestration with Airflow  
+- Delivered reporting-ready datasets for analytics    
 
 ---
 
