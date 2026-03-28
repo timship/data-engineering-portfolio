@@ -125,7 +125,7 @@ This project was implemented in a training environment simulating a real-world D
 
 ## 👩‍💻 Author
 
-Maria Shkurat — Data Engineer (Junior)  
+Maria Shkurat — Data Engineer
 
 Focused on building data pipelines, data warehouses, and analytical systems.
 
