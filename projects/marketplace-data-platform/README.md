@@ -41,9 +41,10 @@ The goal of the project is to build an analytical data pipeline and create data 
 
 ---
 
-## 📦 Data
+## 📦 Sample Data
 
-The dataset is stored in parquet format and represents marketplace product data.
+Due to repository size limits, only sample parquet files are included in `data_examples/`.
+The full dataset used in the project contains over 1M records and is stored externally.
 
 ### Raw Data (S3 - Data Lake)
 - multiple parquet files (~1M records)
@@ -56,6 +57,7 @@ The dataset is stored in parquet format and represents marketplace product data.
 Sample data is available in the repository (data_examples/).
 
 ---
+
 
 ## 🧾 Data Schema
 
