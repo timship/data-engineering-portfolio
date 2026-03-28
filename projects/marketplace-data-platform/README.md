@@ -188,7 +188,7 @@ marketplace-data-platform/
 ├── sql/
 ├── docs/
 └── images/
-
+```
 ---
 
 ## 📚 Documentation
