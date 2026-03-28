@@ -182,18 +182,18 @@ Identification of unreliable sellers based on:
 
 ```text
 marketplace-data-platform/
-├── dags/
-├── spark_jobs/
 ├── configs/
-├── sql/
+├── dags/
+├── data_examples/
 ├── docs/
-└── images/
+├── images/
+├── spark_jobs/
+└── sql/
 ```
 ---
 
 ## 📚 Documentation
 
-```md
 - [Project Description](docs/project_description.md)
 - [Architecture](docs/architecture.md)
 - [DAG Description](docs/dag_description.md)
